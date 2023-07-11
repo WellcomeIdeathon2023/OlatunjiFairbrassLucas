@@ -14,7 +14,7 @@ set.seed(123)
 options(shiny.maxRequestSize = 1000 * 1024^2)
 
 # Read shapefile data
-data <- st_read("IND_adm2.shp")
+data <- st_read("../data/IND_adm2.shp")
 
 # UI
 ui <- fluidPage(
