@@ -164,7 +164,7 @@ server <- function(input, output) {
     suicide <- input$b * rice_yield + input$c * temperature + input$e * unobserved + rnorm(N, sd = 0.01)
 
     # Correct model
-    model <- lm(log(suicide) ~ rice_yield + unobserved)
+    model <- lm(suicide ~ rice_yield + unobserved)
 
     # Create new data for prediction
     new_data <- data.frame(
@@ -189,7 +189,7 @@ server <- function(input, output) {
     suicide <- input$b * rice_yield + input$c * temperature + input$e * unobserved + rnorm(N, sd = 0.01)
 
     # Correct model
-    model <- lm(log(suicide) ~ rice_yield + unobserved)
+    model <- lm(suicide ~ rice_yield + unobserved)
 
     # Create new data for prediction
     new_data <- data.frame(
