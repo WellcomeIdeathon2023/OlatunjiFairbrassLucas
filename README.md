@@ -1,6 +1,6 @@
 # README
 
-# Droughts and Despair: An Innovative Tool for Policy-Makers to Assess Climate Change's Economic Impact on Mental Health in Farming Communities
+# Droughts and Despair: An Innovative Tool for Policy-Makers to Assess Climate Change's Economic Impact on “Diseases of Despair” in Farming Communities
 
 This repository contains the code and data for our project in the Wellcome Data Science Ideathon. The project aims to create an innovative tool that can be used by policy-makers to assess the economic impact of climate change on mental health in farming communities.
 
