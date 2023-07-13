@@ -208,7 +208,7 @@ server <- function(input, output) {
     })
 
     # Calculate probability for each data point
-    prob_suicide_gt_2 <- rowMeans(prediction_samples > 0)
+    prob_suicide_gt_2 <- rowMeans(prediction_samples > 0.5)
     data$exceed <- prob_suicide_gt_2
     tm <- tm_shape(data) + tm_polygons("exceed", title = "Prob that \nlog-suicide > 0", legend.title = "Prob that suicide exceeds 0")
     tmap_leaflet(tm)
